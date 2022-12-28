@@ -8,7 +8,11 @@ git config --local user.name "Ignacio De Leon"
 git config --local user.email "nachodeleon77@gmail.com"
 git add <file>
 git commit -m "Added foo to the bar"
+git add . // agregar todos los archivos
 
 
 git checkout -- <file> // vuelve los cambios para atras a como esta en el repositorio
 git diff <file> // muestra las diferencias
+
+git branch <nombre del branch>
+git checkout <nombre del branch> // Cambiar a esa branch
