@@ -14,5 +14,22 @@ git add . // agregar todos los archivos
 git checkout -- <file> // vuelve los cambios para atras a como esta en el repositorio
 git diff <file> // muestra las diferencias
 
-git branch <nombre del branch>
+git branch <nombre del branch> // Crea nueva branch
 git checkout <nombre del branch> // Cambiar a esa branch
+
+Crear repositorio en github
+---------------------------
+
+1) https://github.com/new
+2) ver comandos que me da 
+3) ejecutar los 2 ultimos
+git remote add origin https://github.com/nachodeleon77/<proyecto>
+git push -u origin main
+
+Si me da error el push
+----------------------
+touch README
+git add README
+git add (all other files)
+git commit -m 'reinitialized files'
+git push origin master
