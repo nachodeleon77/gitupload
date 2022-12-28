@@ -4,3 +4,7 @@ Git
 buscar carpeta en explorador
 afuera de la carpeta, boton derecho, Git bash here
 git init
+git config --local user.name "Ignacio De Leon"
+git config --local user.email "nachodeleon77@gmail.com"
+git add <file>
+git commit -m "Added foo to the bar"
