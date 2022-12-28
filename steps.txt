@@ -1,0 +1,6 @@
+Git
+---
+
+buscar carpeta en explorador
+afuera de la carpeta, boton derecho, Git bash here
+git init
