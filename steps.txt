@@ -37,3 +37,7 @@ git push origin master
 Para bajarlo
 ------------
 git clone https://github.com/nachodeleon77/<proyecto>
+
+Mas Info
+--------
+https://rogerdudler.github.io/git-guide/index.es.html
